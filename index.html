@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fortune Cookie</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+
+      <div class="screen1">
+        <h1>What's your fortune today?</h1>
+        <p>Open up a cookie for guidance and words of wisdom!</p>
+        <img id="btnOpen" src="images/fortune-cookie.png" alt="Closed chinese fortune cookie">
+      </div>
+
+      <div class="screen2 hide">
+        <h2>Here you go!</h2>
+        <div class="fortune-card">
+        </div>
+        <img src="images/opened-cookie.png" alt="Opened chinese fortune cookie">
+        <button id="btnReset">Open another cookie</button>
+      </div>
+
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
